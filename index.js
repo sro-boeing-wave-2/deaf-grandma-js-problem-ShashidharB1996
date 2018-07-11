@@ -24,7 +24,7 @@ while (inp !== 'BYE') {
 } */
 
 let count = 0;
-print('What do you want to say to Grandma!!', '');
+print('What do you want to say to Grandma!!');
 do {
   const input1 = prompt();
   if (isUppercase(input1)) {

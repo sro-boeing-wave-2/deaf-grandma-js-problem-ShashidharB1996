@@ -8,11 +8,9 @@
  * @returns {boolean}
  */
 const isUppercase = (s) => {
-  let compare = true;
+  let compare = false;
   if (s === s.toUpperCase()) {
     compare = true;
-  } else {
-    compare = false;
   }
   return compare;
 };
